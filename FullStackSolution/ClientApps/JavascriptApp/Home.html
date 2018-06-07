@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    
+    <form name="GetData">
+        <h1>Welcome Home</h1>
+        <button type="button" onclick="getData()">Get Data</button>
+        <div id="dataDiv"></div>
+    </form>
+    <form name="PostData">
+        <h1>Post Data</h1>   
+        <label id="message"></label>
+        <input type="text" id="value" name="value" />
+        <button type="button" onclick="postData()">Post Data</button>
+    </form>
+    <script>
+        function getData()
+        {
+            var xHttp = new XMLHttpRequest();
+            xHttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    //document.getElementById("dataDiv").innerHTML = "This is ajax call";
+                    document.getElementById("dataDiv").innerHTML = this.responseText;
+                }
+            };
+            xHttp.open("GET", "http://localhost:53006/api/Default", true);
+            xHttp.send();
+        }
+
+        function postData()
+        {
+            var userDetails = { Name: "Manik", Value: "ValueOne"};
+            var val = document.getElementById("value").value;
+            var xHttp = new XMLHttpRequest();
+            xHttp.onload = function () {
+                var users = xHttp.responseText; //JSON.parse(xhr.responseText);
+                if (xHttp.readyState == 4 && xHttp.status == "201") {
+                    console.log(users);
+                } else {
+                    console.error(users);
+                }
+            }
+            
+            xHttp.open("POST", "http://localhost:53006/api/Default", true);
+            xHttp.setRequestHeader("Content-Type", "application/json");//"application/json; charset=utf-8");
+            //xHttp.postData(userDetails);
+            xHttp.send(JSON.stringify(userDetails)); //"Name=Manik&Value=ValueOne");
+        }
+    </script>
+</body>
+</html>

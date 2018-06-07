@@ -1,0 +1,7 @@
+D:\Manik\PracticeProjects\FridayQuiz\bin\Debug\FridayQuiz.exe.config
+D:\Manik\PracticeProjects\FridayQuiz\bin\Debug\FridayQuiz.exe
+D:\Manik\PracticeProjects\FridayQuiz\bin\Debug\FridayQuiz.pdb
+D:\Manik\PracticeProjects\FridayQuiz\obj\Debug\FridayQuiz.csprojAssemblyReference.cache
+D:\Manik\PracticeProjects\FridayQuiz\obj\Debug\FridayQuiz.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\FridayQuiz\obj\Debug\FridayQuiz.exe
+D:\Manik\PracticeProjects\FridayQuiz\obj\Debug\FridayQuiz.pdb

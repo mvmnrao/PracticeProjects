@@ -1,0 +1,7 @@
+D:\Manik\PracticeProjects\Interview\LinQQuestion\bin\Debug\LinQQuestion.exe.config
+D:\Manik\PracticeProjects\Interview\LinQQuestion\bin\Debug\LinQQuestion.exe
+D:\Manik\PracticeProjects\Interview\LinQQuestion\bin\Debug\LinQQuestion.pdb
+D:\Manik\PracticeProjects\Interview\LinQQuestion\obj\Debug\LinQQuestion.csprojResolveAssemblyReference.cache
+D:\Manik\PracticeProjects\Interview\LinQQuestion\obj\Debug\LinQQuestion.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\Interview\LinQQuestion\obj\Debug\LinQQuestion.exe
+D:\Manik\PracticeProjects\Interview\LinQQuestion\obj\Debug\LinQQuestion.pdb

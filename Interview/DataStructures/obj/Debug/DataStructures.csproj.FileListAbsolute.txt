@@ -1,0 +1,7 @@
+D:\Manik\PracticeProjects\Interview\DataStructures\bin\Debug\DataStructures.exe.config
+D:\Manik\PracticeProjects\Interview\DataStructures\bin\Debug\DataStructures.exe
+D:\Manik\PracticeProjects\Interview\DataStructures\bin\Debug\DataStructures.pdb
+D:\Manik\PracticeProjects\Interview\DataStructures\obj\Debug\DataStructures.csprojAssemblyReference.cache
+D:\Manik\PracticeProjects\Interview\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\Interview\DataStructures\obj\Debug\DataStructures.exe
+D:\Manik\PracticeProjects\Interview\DataStructures\obj\Debug\DataStructures.pdb

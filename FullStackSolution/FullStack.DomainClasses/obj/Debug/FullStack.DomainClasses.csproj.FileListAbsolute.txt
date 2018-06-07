@@ -1,0 +1,6 @@
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DomainClasses\bin\Debug\FullStack.DomainClasses.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DomainClasses\bin\Debug\FullStack.DomainClasses.pdb
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DomainClasses\obj\Debug\FullStack.DomainClasses.csprojResolveAssemblyReference.cache
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DomainClasses\obj\Debug\FullStack.DomainClasses.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DomainClasses\obj\Debug\FullStack.DomainClasses.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DomainClasses\obj\Debug\FullStack.DomainClasses.pdb

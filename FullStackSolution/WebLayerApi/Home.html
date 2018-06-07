@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    
+    <form name="GetData">
+        <h1>Welcome Home</h1>
+        <button type="button" onclick="getData()">Get Data</button>
+        <div id="dataDiv"></div>
+    </form>
+    <form name="PostData">
+        <h1>Post Data</h1>        
+        <input type="text" id="value" name="value" />
+        <button type="button" onclick="postData()">Post Data</button><br />
+        <label id="message"></label>
+    </form>
+    <form name="PutData">
+        <h1>Put Data</h1>
+        <input type="text" id="id" name="id" />
+        <input type="text" id="putValue" name="value" />
+        <button type="button" onclick="putData()">Put Data</button><br />
+        <label id="putMessage"></label>
+    </form>
+    <form name="DeleteData">
+        <h1>Delete Data</h1>
+        <input type="text" id="delId" name="delId" />
+        <button type="button" onclick="deleteData()">Delete Data</button><br />
+        <label id="delMessage"></label>
+    </form>
+    <script>
+        function getData()
+        {
+            var xHttp = new XMLHttpRequest();
+            xHttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    //document.getElementById("dataDiv").innerHTML = "This is ajax call";
+                    document.getElementById("dataDiv").innerHTML = this.responseText;
+                }
+            };
+            xHttp.open("GET", "http://localhost:53006/api/Default", true);
+            xHttp.send();
+        }
+
+        function postData()
+        {            
+            var val = document.getElementById("value").value;
+            var userDetails = { Name: val, Value: val };
+            var xHttp = new XMLHttpRequest();
+            xHttp.onreadystatechange = function () {
+                if (xHttp.readyState == 4 && xHttp.status == "200") {
+                    document.getElementById("message").innerHTML = this.responseText;
+                } else {
+                    console.error(users);
+                }
+            }
+            
+            xHttp.open("POST", "http://localhost:53006/api/Default", true);
+            xHttp.setRequestHeader("Content-Type", "application/json");
+            xHttp.send(JSON.stringify(userDetails)); //"Name=Manik&Value=ValueOne");
+        }
+
+        function putData() {
+
+            var id = document.getElementById("id").value;
+            var val = document.getElementById("putValue").value;
+            var userDetails = { Name: val, Value: val };
+            var xHttp = new XMLHttpRequest();
+            xHttp.onreadystatechange = function () {
+                if (xHttp.readyState == 4 && xHttp.status == "200") {
+                    document.getElementById("putMessage").innerHTML = this.responseText;
+                } else {
+                    console.error(users);
+                }
+            }
+
+            xHttp.open("PUT", "http://localhost:53006/api/Default/" + id, true);
+            xHttp.setRequestHeader("Content-Type", "application/json");
+            xHttp.send(JSON.stringify(userDetails)); //"Name=Manik&Value=ValueOne");
+        }
+
+        function deleteData() {
+
+            var id = document.getElementById("delId").value;
+            var xHttp = new XMLHttpRequest();
+            xHttp.onreadystatechange = function () {
+                if (xHttp.readyState == 4 && xHttp.status == "200") {
+                    document.getElementById("delMessage").innerHTML = this.responseText;
+                } else {
+                    console.error(users);
+                }
+            }
+
+            xHttp.open("DELETE", "http://localhost:53006/api/Default/" + id, true);
+            xHttp.setRequestHeader("Content-Type", "application/json");
+            xHttp.send();
+        }
+    </script>
+</body>
+</html>

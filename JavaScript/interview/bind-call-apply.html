@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>bind, call, apply</title>
+	</head>
+	<body>
+		<script>
+		var obj = {
+		  x: 81,
+		  getX: function() {
+			return this.x;
+		  }
+		};
+		document.write("obj.getX.bind(obj)(): ");
+		document.write(obj.getX.bind(obj)());
+		
+		document.write("<br/>obj.getX.call(obj): ");
+		document.write(obj.getX.call(obj));
+		
+		document.write("<br/>obj.getX.apply(obj): ");
+		document.write(obj.getX.apply(obj));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Customers>
+	<Customer CustomerID="ALFKI" City="Berlin"></Customer>
+	<Customer CustomerID="BONAP" City="Marseille"></Customer>
+	<Customer CustomerID="CONSH" City="London"></Customer>
+	<Customer CustomerID="EASTC" City="London"></Customer>
+	<Customer CustomerID="FRANS" City="Torino"></Customer>
+	<Customer CustomerID="LONEP" City="Portland"></Customer>
+	<Customer CustomerID="NORTS" City="London"></Customer>
+	<Customer CustomerID="THEBI" City="Portland"></Customer>
+</Customers>

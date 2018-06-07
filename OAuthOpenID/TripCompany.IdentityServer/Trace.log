@@ -1,0 +1,31 @@
+Test Output message.
+The client is disconnected because the underlying request has been completed.  There is no longer an HttpContext available.;    at System.Web.HttpBufferlessInputStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.Owin.Host.SystemWeb.CallStreams.DelegatingStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Owin.ConfigureRequestBodyBufferExtension.<<ConfigureRequestBodyBuffer>b__0>d__2.MoveNext() in c:\local\identity\server3\IdentityServer3\source\Core\Configuration\AppBuilderExtensions\ConfigureRequestBodyBufferExtension.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerBaseUrlExtension.<>c__DisplayClass1.<<ConfigureIdentityServerBaseUrl>b__0>d__3.MoveNext() in c:\local\identity\server3\IdentityServer3\source\Core\Configuration\AppBuilderExtensions\ConfigureIdentityServerBaseUrlExtension.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestIdExtension.<<ConfigureRequestId>b__0>d__2.MoveNext() in c:\local\identity\server3\IdentityServer3\source\Core\Configuration\AppBuilderExtensions\ConfigureRequestIdExtension.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.EndFinalWork(IAsyncResult ar)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously); ; System.Web

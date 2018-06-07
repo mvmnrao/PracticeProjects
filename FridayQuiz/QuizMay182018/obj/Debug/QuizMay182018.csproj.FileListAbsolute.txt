@@ -1,0 +1,7 @@
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\bin\Debug\QuizMay182018.exe.config
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\bin\Debug\QuizMay182018.exe
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\bin\Debug\QuizMay182018.pdb
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\obj\Debug\QuizMay182018.csprojResolveAssemblyReference.cache
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\obj\Debug\QuizMay182018.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\obj\Debug\QuizMay182018.exe
+D:\Manik\PracticeProjects\FridayQuiz\QuizMay182018\obj\Debug\QuizMay182018.pdb

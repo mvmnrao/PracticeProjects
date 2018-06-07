@@ -1,0 +1,17 @@
+﻿@model IEnumerable<System.Security.Claims.Claim>
+@{
+    ViewBag.Title = "Private Information";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>This area should be displaying private information which require authorization.</p>
+<div>
+    @foreach (var claim in Model)
+    {
+        <div>
+            <p><strong>@claim.Type</strong></p>
+            <p>@claim.Value</p>
+    </div>
+    }
+</div>

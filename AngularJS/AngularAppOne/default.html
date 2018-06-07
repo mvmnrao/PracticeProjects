@@ -1,0 +1,188 @@
+<html ng-app="notesApp">
+
+<head>
+    <title>Sample Application - Angular One</title>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css"></link>
+</head>
+
+<body>
+    <h1>Welcome to my first AngulaJS application</h1>
+    <!--<tabs>
+            <tab title="Home">Home page content here</tab>
+            <tab title="Profile">
+                <input type="text" datepicker ng-model="startDate"/>
+            </tab>
+        </tabs>-->
+    <!--<ul class="nav">
+        <li style="float: left;"><a href="#home">Home</a></li>
+        <li style="float: left;"><a href="#news">News</a></li>
+    </ul><br /><br />-->
+    <div ng-controller="mainCtrl as ctrl">
+        <fieldset class="section">
+            <legend>This is simple calculation to know about ng-app:</legend>
+            <span class="labelTxt ng-cloak"><br>{{a}} + {{b}} = {{ a + b}}</span>
+        </fieldset>
+
+        <fieldset class="section">
+            <legend>Below is ng-model sample, just put your name in the box:</legend>
+            <span class="labelTxt">Your name please:</span>&nbsp;<input type="text" ng-model="name" placeholder="Name"></input><br>
+            <h3 ng-if="name" class="ng-cloak">Hello {{name}}</h3>
+            <h3 ng-if="name">Welcome <span ng-bind="name"></span></h3>
+        </fieldset>
+
+        <fieldset class="section">
+            <legend>Below is ng-repeat over string array:</legend>
+            <div ng-repeat="name in names"><span class="labelTxt">{{name}}</span></div><br>
+        </fieldset>
+        <fieldset class="section">
+            <legend>ng-repeat over an array of objects:</legend>
+            <table>
+                <tr>
+                    <th>Index</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Done</th>
+                    <th>Assignee</th>
+                </tr>
+                <tr ng-repeat="note in ctrl.notes" ng-class="ctrl.getClassWithNgHelper($first, $middle, $last, $even, $odd)">
+                    <td>{{$index}}</td>
+                    <td>{{note.id}}</td>
+                    <td>{{note.title}}</td>
+                    <td ng-class="ctrl.getNoteClass(note.done)">{{note.done | yesOrNo}}</td>
+                    <td ng-show="note.assignee" ng-bind="note.assignee"></td>
+                </tr>
+            </table><br>
+        </fieldset>
+        <fieldset class="section">
+            <legend>ng-repeat over an object:</legend>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Done</th>
+                    <th>Assignee</th>
+                </tr>
+                <tr ng-repeat="(author, note) in ctrl.notes1" ng-class="ctrl.getClassWithNgHelper($first, $middle, $last, $even, $odd)">
+                    <td>{{note.id}}</td>
+                    <td>{{note.title}}</td>
+                    <td>{{note.done | yesOrNo}}</td>
+                    <td ng-show="note.assignee" ng-bind="note.assignee"></td>
+                </tr>
+            </table><br>
+        </fieldset>
+        <fieldset class="section">
+            <legend>ng-repeat Track by ID to tell ng-repeat to reuse DOM element based on ID instead of hash:</legend>
+            <button class="btn" style="margin: 5px 0px 0px 10px;" ng-click="ctrl.changeNotes()">Change Notes Model</button><br>
+            <span class="labelTxt" style="padding-left: 10px;">Dom elements are recreated on change of model</span><br>
+            <table>
+                <tr>
+                    <th>Hash (notes2)</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Done</th>
+                    <th>Assignee</th>
+                </tr>
+                <tr ng-repeat="note in ctrl.notes2" ng-class="ctrl.getClassWithNgHelper($first, $middle, $last, $even, $odd)">
+                    <td>{{note.$$hashKey}}
+                        <td>{{note.id}}</td>
+                        <td>{{note.title}}</td>
+                        <td>{{note.done | yesOrNo}}</td>
+                        <td ng-show="note.assignee" ng-bind="note.assignee"></td>
+                </tr>
+            </table>
+            <span class="labelTxt" style="padding-left: 10px;">Dom elements are reused on change of model</span><br>
+            <table>
+                <tr>
+                    <th>Hash (notes3)</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Done</th>
+                    <th>Assignee</th>
+                </tr>
+                <tr ng-repeat="note in ctrl.notes3 track by note.id" ng-class="ctrl.getClassWithNgHelper($first, $middle, $last, $even, $odd)">
+                    <td>{{note.$$hashKey}}
+                        <td>{{note.id}}</td>
+                        <td>{{note.title}}</td>
+                        <td>{{note.done | yesOrNo}}</td>
+                        <td ng-show="note.assignee" ng-bind="note.assignee"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset class="section txt">
+            <legend>Oneway Binding</legend>
+            {{ctrl.message}} Angularjs
+            </br>
+            </br>
+            <button class="btn" ng-click="ctrl.changeMessage()">Say Goodbye</button>
+        </fieldset>
+        <fieldset class="section">
+            <legend>Login Directive</legend>
+            <login-dir testMessage="some sample text"></login-dir>
+        </fieldset>
+        <fieldset class="section">
+            <legend>Below is Login "Form" example:</legend>
+            <form name="login" ng-submit="ctrl.login()">
+                <span class="labelTxt">Username:</span>&nbsp;
+                <input type="text" name="uname" class="username" placeholder="Username" ng-model="ctrl.user.username" required ng-minlength="5">
+                <span class="txt" ng-show="login.uname.$error.required">Username is required</span><br><br>
+                <span class="labelTxt">Password:</span>&nbsp;
+                <input type="password" name="pwd" placeholder="Password" ng-model="ctrl.user.password" required>
+                <span class="txt" ng-show="login.pwd.$error.required">Password is required.</span><br><br>
+                <input type="date"><br><br>
+                <input type="submit" value="Login">&nbsp;
+                <input type="button" value="Reset" ng-disabled="login.$pristine">
+            </form>
+        </fieldset>
+        <fieldset class="section">
+            <legend>Basic Filters:</legend>
+            {{2919/9 | number:5}}
+        </fieldset>
+        <fieldset class="section">
+            <legend>ng-options:</legend>
+            <select ng-model="ctrl.selectedCountryId" ng-options="c.id as c.label for c in ctrl.countries">
+            </select> Selected Country ID: {{ctrl.selectedCountryId}}<br><br>
+            <select ng-model="ctrl.selectedCountry" ng-options="c.label for c in ctrl.countries">
+            </select> Selected Country: {{ctrl.selectedCountry}}
+        </fieldset>
+        <fieldset class="section">
+            <legend>ng-switch:</legend>
+            <input type="button" ng-click="ctrl.turnSwitch('one')" value="Open First" />
+            <input type="button" ng-click="ctrl.turnSwitch('two')" value="Open Second" />
+            <div ng-switch on="ctrl.tab">
+                <div ng-switch-when="one">
+                    <div ng-controller="firstController as fCtrl">
+                        This is first Controller View:
+                        <ul>
+                            <li ng-repeat="item in fCtrl.items()">
+                                <span ng-bind="item.name"></span>
+                            </li>
+                        </ul>
+                        <button ng-click="fCtrl.add()" >
+                            Add
+                        </button>
+                    </div>
+                </div>
+                <div ng-switch-when="two">
+                    <div ng-controller="secondController as sCtrl">
+                        This is second Controller View:
+                        <ul>
+                            <li ng-repeat="item in sCtrl.items()">
+                                <span ng-bind="item.name"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div><br><br>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.js"></script>
+    <script src="/modules/myApp.module.js"></script>
+    <script src="/src/app/components/login/login.directive.js"></script>
+    <script src="/src/app/components/login/login.controller.js"></script>
+    <script src="src/app/services/listService.js"></script>    
+    <script src="src/app/ctrlOne/firstController.js"></script>
+    <script src="src/app/ctrlTwo/secondController.js"></script>    
+</body>
+
+</html>

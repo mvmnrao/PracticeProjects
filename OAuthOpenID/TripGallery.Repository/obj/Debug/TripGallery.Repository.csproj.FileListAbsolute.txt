@@ -1,0 +1,5 @@
+D:\Manik\Practice\OAuthOpenID\TripGallery.Repository\bin\Debug\TripGallery.Repository.dll
+D:\Manik\Practice\OAuthOpenID\TripGallery.Repository\bin\Debug\TripGallery.Repository.pdb
+D:\Manik\Practice\OAuthOpenID\TripGallery.Repository\obj\Debug\TripGallery.Repository.csprojResolveAssemblyReference.cache
+D:\Manik\Practice\OAuthOpenID\TripGallery.Repository\obj\Debug\TripGallery.Repository.dll
+D:\Manik\Practice\OAuthOpenID\TripGallery.Repository\obj\Debug\TripGallery.Repository.pdb

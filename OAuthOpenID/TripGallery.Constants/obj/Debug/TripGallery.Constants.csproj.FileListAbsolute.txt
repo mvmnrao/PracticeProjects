@@ -1,0 +1,4 @@
+D:\Manik\Practice\OAuthOpenID\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+D:\Manik\Practice\OAuthOpenID\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+D:\Manik\Practice\OAuthOpenID\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+D:\Manik\Practice\OAuthOpenID\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb

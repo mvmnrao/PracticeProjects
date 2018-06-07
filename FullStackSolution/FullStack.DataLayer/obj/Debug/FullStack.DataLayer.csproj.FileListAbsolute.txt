@@ -1,0 +1,12 @@
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\FullStack.DataLayer.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\FullStack.DataLayer.pdb
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\EntityFramework.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\FullStack.DomainClasses.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\FullStack.DomainClasses.pdb
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\EntityFramework.xml
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\obj\Debug\FullStack.DataLayer.csprojResolveAssemblyReference.cache
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\obj\Debug\FullStack.DataLayer.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\obj\Debug\FullStack.DataLayer.dll
+D:\Manik\PracticeProjects\FullStackSolution\FullStack.DataLayer\obj\Debug\FullStack.DataLayer.pdb

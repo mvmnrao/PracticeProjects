@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Functions</title>
+</head>
+<body>
+
+
+
+<script>
+var myFunThis;
+var myFun = function() {
+  myFunThis = this;
+  //return {One: "This is one"};
+
+  //return "Simple string";
+}
+
+var myFunInstance = new myFun();
+console.log("myFunInstance");
+console.log(myFunInstance);
+
+//var myFunInstance1 = myFun();
+//console.log("myFunInstance1");
+//console.log(myFunInstance1);
+
+console.log("myFunThis");
+console.log(myFunThis);
+
+console.log("myFunInstance === myFunThis");
+console.log(myFunInstance === myFunThis);
+
+console.log("myFun.prototype.isProtoTypeOf(myFunInstance)");
+console.log(myFun.prototype.isPrototypeOf(myFunInstance));
+
+console.log("myFun.prototype.isProtoTypeOf(myFunThis)");
+console.log(myFun.prototype.isPrototypeOf(myFunThis));
+
+</script>
+</body>
+</html>

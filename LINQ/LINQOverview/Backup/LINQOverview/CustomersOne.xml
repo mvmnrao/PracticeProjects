@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Customers>
+	<Customer>
+		<City>ALFKI</City>
+		<CustomerID>Berlin</CustomerID>
+	</Customer>
+	<Customer>
+		<City>BONAP</City>
+		<CustomerID>Marseille</CustomerID>
+	</Customer>
+	<Customer>
+		<City>CONSH</City>
+		<CustomerID>London</CustomerID>
+	</Customer>
+	<Customer>
+		<City>EASTC</City>
+		<CustomerID>London</CustomerID>
+	</Customer>
+	<Customer>
+		<City>FRANS</City>
+		<CustomerID>Torino</CustomerID>
+	</Customer>
+	<Customer>
+		<City>LONEP</City>
+		<CustomerID>Portland</CustomerID>
+	</Customer>
+	<Customer>
+		<City>NORTS</City>
+		<CustomerID>London</CustomerID>
+	</Customer>
+	<Customer>
+		<City>THEBI</City>
+		<CustomerID>Portland</CustomerID>
+	</Customer>
+</Customers>

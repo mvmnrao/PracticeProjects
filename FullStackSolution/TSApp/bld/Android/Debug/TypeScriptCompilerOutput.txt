@@ -1,0 +1,4 @@
+D:\Manik\PracticeProjects\FullStackSolution\TSApp\www\scripts\application.js
+D:\Manik\PracticeProjects\FullStackSolution\TSApp\www\scripts\application.js.map
+D:\Manik\PracticeProjects\FullStackSolution\TSApp\www\scripts\startup.js
+D:\Manik\PracticeProjects\FullStackSolution\TSApp\www\scripts\startup.js.map

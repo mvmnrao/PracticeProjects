@@ -1,0 +1,7 @@
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\bin\Debug\DiagonalDifference.exe.config
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\bin\Debug\DiagonalDifference.exe
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\bin\Debug\DiagonalDifference.pdb
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\obj\Debug\DiagonalDifference.csprojAssemblyReference.cache
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\obj\Debug\DiagonalDifference.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\obj\Debug\DiagonalDifference.exe
+D:\Manik\PracticeProjects\CodeWars\DiagonalDifference\obj\Debug\DiagonalDifference.pdb

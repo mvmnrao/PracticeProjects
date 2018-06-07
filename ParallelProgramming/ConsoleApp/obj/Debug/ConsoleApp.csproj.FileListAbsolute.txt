@@ -1,0 +1,9 @@
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\bin\Debug\AsyncAwaiteSample.dll
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\bin\Debug\AsyncAwaiteSample.pdb
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\Manik\PracticeProjects\ParallelProgramming\ConsoleApp\obj\Debug\ConsoleApp.pdb

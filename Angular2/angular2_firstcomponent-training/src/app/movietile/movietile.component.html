@@ -1,0 +1,9 @@
+<div class="tile">
+    <div>IMDB ID: {{movieDetail.imdbID}}</div>
+    <div (click)="movieNameClick()">Name: {{movieDetail.Title}}</div>
+    <div *ngIf="movieDetail?.Type">Genre: {{movieDetail.Type}}</div><!--<span *ngIf="!movieDetail?.Type">n/a</span>-->
+    <div>Year: {{movieDetail.Year}}</div>
+    <div>Poster: <img [src]=movieDetail.Poster /></div>
+    <!--<div>Price: {{movieDetail.price | currency}}</div>-->
+    <div>greet message: {{great}}</div>
+</div>

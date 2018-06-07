@@ -1,0 +1,8 @@
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\bin\Debug\CustomersOne.xml
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\bin\Debug\Customers.xml
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\bin\Debug\LINQOverview.exe
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\bin\Debug\LINQOverview.pdb
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\obj\Debug\LINQOverview.csprojAssemblyReference.cache
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\obj\Debug\LINQOverview.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\obj\Debug\LINQOverview.exe
+D:\Manik\PracticeProjects\LINQ\LINQOverview\LINQOverview\obj\Debug\LINQOverview.pdb

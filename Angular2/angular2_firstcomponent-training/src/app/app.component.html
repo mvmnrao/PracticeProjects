@@ -1,0 +1,6 @@
+<h1>Welcome to EMDB!!</h1>
+<h4>Movie details are:</h4>
+<input type="text" [(ngModel)] = "searchTxt" placeholder="search by name" />
+<div *ngFor="let movie of movies | search:searchTxt">
+    <movietile [message]='movie.title' [movieDetail] = 'movie'></movietile>
+</div>

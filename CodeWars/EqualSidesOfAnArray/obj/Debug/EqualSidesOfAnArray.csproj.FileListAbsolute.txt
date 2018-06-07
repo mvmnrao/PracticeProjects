@@ -1,0 +1,7 @@
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\bin\Debug\EqualSidesOfAnArray.exe.config
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\bin\Debug\EqualSidesOfAnArray.exe
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\bin\Debug\EqualSidesOfAnArray.pdb
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\obj\Debug\EqualSidesOfAnArray.csprojAssemblyReference.cache
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\obj\Debug\EqualSidesOfAnArray.csproj.CoreCompileInputs.cache
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\obj\Debug\EqualSidesOfAnArray.exe
+D:\Manik\PracticeProjects\CodeWars\EqualSidesOfAnArray\obj\Debug\EqualSidesOfAnArray.pdb

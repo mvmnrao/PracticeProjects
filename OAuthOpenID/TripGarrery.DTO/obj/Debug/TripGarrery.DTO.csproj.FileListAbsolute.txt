@@ -1,0 +1,5 @@
+D:\Manik\Practice\OAuthOpenID\TripGarrery.DTO\bin\Debug\TripGarrery.DTO.dll
+D:\Manik\Practice\OAuthOpenID\TripGarrery.DTO\bin\Debug\TripGarrery.DTO.pdb
+D:\Manik\Practice\OAuthOpenID\TripGarrery.DTO\obj\Debug\TripGarrery.DTO.csprojResolveAssemblyReference.cache
+D:\Manik\Practice\OAuthOpenID\TripGarrery.DTO\obj\Debug\TripGarrery.DTO.dll
+D:\Manik\Practice\OAuthOpenID\TripGarrery.DTO\obj\Debug\TripGarrery.DTO.pdb
