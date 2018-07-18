@@ -1,4 +1,5 @@
 ﻿using FullStack.DataLayer;
+using FullStack.DomainClasses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,10 @@ namespace FullStack.EntityFrameworkConsole
             {
                 var customers = context.Customers.ToList();
 
-                foreach(var c in customers)
+                IQueryable<Customer> iquery = context.Customers;//.Where(c => c.FirstName == "");
+                IEnumerable<Customer> ienum = context.Customers;//.Where(c => c.FirstName == "");
+
+                foreach (var c in customers)
                 {
                     Console.WriteLine(c.FirstName);
                 }

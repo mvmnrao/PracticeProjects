@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FridayQuiz/QuizeJuly062018/.vs/QuizeJuly062018/v15
+/FridayQuiz/QuizeJuly062018/bin/Debug
+/FridayQuiz/QuizeJuly062018/obj/Debug
+/FullStackSolution/.vs/FullStackSolution/DesignTimeBuild
+/Interview/Ericsson/AsyncAwait/bin/Debug
+/Interview/Ericsson/AsyncAwait/obj/Debug
+/Interview/Ericsson/ConsoleAppOne/bin/Debug
+/Interview/Ericsson/ConsoleAppOne/obj/Debug
+/Interview/Ericsson/packages
+/TechTalk/SOLIDPrinciples/.vs/SOLIDPrinciples
+/TechTalk/SOLIDPrinciples/LiskovSub/bin/Debug
+/TechTalk/SOLIDPrinciples/LiskovSub/obj/Debug
+/TechTalk/SOLIDPrinciples/packages
+/TechTalk/SOLIDPrinciples/SOLIDExamples/obj/Debug
+/TechTalk/SOLIDPrinciples/UnitTestProject1/bin/Debug
+/TechTalk/SOLIDPrinciples/UnitTestProject1/obj/Debug
+/Interview/Ericsson/.vs/Ericsson/v15/Server/sqlite3
+/Interview/Ericsson/.vs/Ericsson/v15

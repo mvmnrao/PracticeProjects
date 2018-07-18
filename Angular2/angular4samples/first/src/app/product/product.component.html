@@ -1,0 +1,12 @@
+<div class="main">
+  <h1>Product's List</h1>
+  <div class="addItem">
+    <input [(ngModel)] = "newItem" placeholder="Add Product" class="addText">
+    <button (click) = "pushItem()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor="let p of productsList; let ind = index">
+      {{p}}
+      <span (click) = "removeItem(ind)">X</span></li>
+  </ul>
+</div>
