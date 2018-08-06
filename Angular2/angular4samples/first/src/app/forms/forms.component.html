@@ -1,25 +1,25 @@
 <!--Template driven forms -->
-<form #userForm = "ngForm" (ngSubmit) = "onSubmit(userForm.value)">
+<form #userForm = "ngForm" (ngSubmit) = "onSubmit(userForm.value)" class="formStyle">
   <input type="text" name="firstName" placeholder="First Name" ngModel><br>
   <input type="text" name="lastName" placeholder="Last Name" ngModel><br>
-  <select name="languages" ngModel>
+  <select name="languages" ngModel aria-placeholder="Select Language">
     <option value="C#">C#</option>
     <option value="Java">Java</option>
     <option value="JavaScript">JavaScript</option>
   </select>
   <br><br>
-  <button type="submit">Submit</button>
+  <button class="buttonGreen" type="submit">Submit</button>
 </form>
 
 <!--Model driven forms -->
-<form [formGroup] = "form" (ngSubmit) = "onSubmit(form.value)">
+<form [formGroup] = "form" (ngSubmit) = "onSubmit(form.value)" class="formStyle">
   <input type="text" name="firstName" placeholder="First Name" formControlName="firstname"><br>
   <input type="text" name="lastName" placeholder="Last Name" formControlName="lastname"><br>
-  <select name="languages" formControlName="languages">
+  <select name="languages" formControlName="languages" aria-placeholder="Select Language">
     <option value="C#">C#</option>
     <option value="Java">Java</option>
     <option value="JavaScript">JavaScript</option>
   </select>
   <br><br>
-  <button type="submit">Submit</button>
+  <button class="buttonRed" type="submit">Submit</button>
 </form>

@@ -1,0 +1,4 @@
+Homework: 03/08/2018
+	1. Component - life cycle hooks
+	2. <ng-content>
+		No ng-content, I saw only @ContentChild and @ContentChildren

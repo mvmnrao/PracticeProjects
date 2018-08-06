@@ -59,6 +59,7 @@
     <Compile Include="BinaryTreeMerge.cs" />
     <Compile Include="BobbleSort.cs" />
     <Compile Include="CircularQueue.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="HashMapSample.cs" />
     <Compile Include="LinQSample.cs" />
     <Compile Include="DictionaryUsingArray.cs" />
@@ -81,7 +82,9 @@
     <Compile Include="QueueWithArray.cs" />
     <Compile Include="QuickSort.cs" />
     <Compile Include="RafactoreCode.cs" />
+    <Compile Include="SingletonClass.cs" />
     <Compile Include="StackWithArray.cs" />
+    <Compile Include="StringReverse.cs" />
     <Compile Include="TreeInOrderPreOrderPostOrder.cs" />
     <Compile Include="YieldSample.cs" />
   </ItemGroup>

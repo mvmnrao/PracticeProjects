@@ -56,7 +56,9 @@ namespace ConsoleAppOne
             //MaxDepthOfTree maxDepthOfTree = new MaxDepthOfTree();
             //TreeInOrderPreOrderPostOrder treeInOrderPreOrderPostOrder = new TreeInOrderPreOrderPostOrder();
             //LevelOrderTreeTraversal levelOrderTreeTraversal = new LevelOrderTreeTraversal();
-            LinQSample linQQ = new LinQSample();
+            //LinQSample linQQ = new LinQSample();
+
+            StringReverse stringReverse = new StringReverse();
 
             //int x = 10;
             //Console.WriteLine(++x);
