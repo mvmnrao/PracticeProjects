@@ -1,5 +1,0 @@
-D:\Manik\PracticeProjects\FullStackSolution\FullStack.Dacpac\bin\Debug\FullStack.Dacpac.dacpac
-D:\Manik\PracticeProjects\FullStackSolution\FullStack.Dacpac\bin\Debug\FullStack.Dacpac.dll
-D:\Manik\PracticeProjects\FullStackSolution\FullStack.Dacpac\bin\Debug\FullStack.Dacpac.pdb
-D:\Manik\PracticeProjects\FullStackSolution\FullStack.Dacpac\obj\Debug\FullStack.Dacpac.dll
-D:\Manik\PracticeProjects\FullStackSolution\FullStack.Dacpac\obj\Debug\FullStack.Dacpac.pdb
