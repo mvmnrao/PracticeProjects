@@ -1,0 +1,11 @@
+﻿{
+  "Comment": "State Machine",
+  "StartAt": "TransformToText",
+  "States": {
+    "TransformToText": {
+      "Type": "Task",
+      "Resource": "${TransformToTextTask.Arn}",
+      "End": true
+    }
+  }
+}

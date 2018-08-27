@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mvc = Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -19,6 +20,12 @@ namespace WebLayerApi.Controllers
         //{
         //    return myList;// new string[] { "value1", "value2" };
         //}
+
+        //[ValidateAntiForgeryToken]        
+        public string TestMethod([Mvc.Bind(include: "Id, Name")] Employee employee)
+        {
+            return "";
+        }
 
         [HttpGet]
         [ScopeAuthorize("read")]
@@ -83,5 +90,11 @@ namespace WebLayerApi.Controllers
     {
         public string Name { get; set; }
         public string Value { get; set; }
+    }
+
+    public class Employee
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

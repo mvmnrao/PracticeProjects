@@ -1,0 +1,22 @@
+﻿@section Scripts{
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/app")
+}
+<h3>Upload File</h3>
+@using (Html.BeginForm("Index",
+                                                                              "ImageTrain",
+                                                                              FormMethod.Post,
+                                                                              new { enctype = "multipart/form-data" }))
+{
+    <br />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <label for="Name">Name:</label><br />
+    @Html.Editor("Name")
+    <br />
+    <br />
+    <label for="file">Upload Image:</label> <br />
+    <input type="file" name="file" id="file" /><br><br>
+    <input type="submit" value="Train Image" />
+    <br><br>
+    @ViewBag.Message
+}

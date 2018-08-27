@@ -1,0 +1,17 @@
+﻿@section Scripts{
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/app")
+}
+<h3>Upload File</h3>
+@using (Html.BeginForm("FindMatch",
+                                                                                          "ImageTrain",
+                                                                                          FormMethod.Post,
+                                                                                          new { enctype = "multipart/form-data" }))
+{
+    <br />
+    <label for="file">Upload Image:</label> <br />
+    <input type="file" name="file" id="file" /><br><br>
+    <input type="submit" value="Find Match" />
+    <br><br>
+    @ViewBag.Message
+}
