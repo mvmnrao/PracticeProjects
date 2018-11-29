@@ -18,10 +18,10 @@ namespace GenericsExample
             writer = new Writer<IWriteTo>(new WriteToFile());
             writer.WriteMessage("Test message two");
 
-            //Below error is valid because of constrain applied for Writer class.
-            //this error will go off if you remove generic constraint for Writer class but that will give run time exception.
-            Writer<WriteToCloud> writerOne = new Writer<WriteToCloud>(new WriteToCloud());
-            writerOne.WriteMessage("Test message three");
+            ////Below error is valid because of constrain applied for Writer class.
+            ////this error will go off if you remove generic constraint for Writer class but that will give run time exception.
+            //Writer<WriteToCloud> writerOne = new Writer<WriteToCloud>(new WriteToCloud());
+            //writerOne.WriteMessage("Test message three");
 
             Console.ReadKey();
         }

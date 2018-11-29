@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming", "Para
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsExample", "GenericsExample\GenericsExample.csproj", "{09FB1F90-0183-40A1-B46E-F671D711F2D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsole", "SampleConsole\SampleConsole.csproj", "{443E4635-20C6-4419-8FA1-107D422F140B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsAndDataStructures", "CollectionsAndDataStructures\CollectionsAndDataStructures.csproj", "{04324277-D32D-4229-97C7-627742D500B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{09FB1F90-0183-40A1-B46E-F671D711F2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FB1F90-0183-40A1-B46E-F671D711F2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09FB1F90-0183-40A1-B46E-F671D711F2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443E4635-20C6-4419-8FA1-107D422F140B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443E4635-20C6-4419-8FA1-107D422F140B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443E4635-20C6-4419-8FA1-107D422F140B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443E4635-20C6-4419-8FA1-107D422F140B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04324277-D32D-4229-97C7-627742D500B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04324277-D32D-4229-97C7-627742D500B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04324277-D32D-4229-97C7-627742D500B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04324277-D32D-4229-97C7-627742D500B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

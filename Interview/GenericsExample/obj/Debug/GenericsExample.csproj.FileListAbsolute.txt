@@ -1,7 +1,0 @@
-D:\Manik\PracticeProjects\Interview\GenericsExample\bin\Debug\GenericsExample.exe.config
-D:\Manik\PracticeProjects\Interview\GenericsExample\bin\Debug\GenericsExample.exe
-D:\Manik\PracticeProjects\Interview\GenericsExample\bin\Debug\GenericsExample.pdb
-D:\Manik\PracticeProjects\Interview\GenericsExample\obj\Debug\GenericsExample.csprojResolveAssemblyReference.cache
-D:\Manik\PracticeProjects\Interview\GenericsExample\obj\Debug\GenericsExample.csproj.CoreCompileInputs.cache
-D:\Manik\PracticeProjects\Interview\GenericsExample\obj\Debug\GenericsExample.exe
-D:\Manik\PracticeProjects\Interview\GenericsExample\obj\Debug\GenericsExample.pdb

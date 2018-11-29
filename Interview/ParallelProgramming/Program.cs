@@ -32,6 +32,9 @@ namespace ParallelProgramming
             ParallelForWithCurrentThreadState();
             Console.WriteLine("Parallel For loop with Thread-Local variable end.");
 
+            AsyncAwaitSample asyncAwaitSample = new AsyncAwaitSample();
+            asyncAwaitSample.MethodOneAsync().GetAwaiter().GetResult();
+
             Console.ReadLine();
         }
 

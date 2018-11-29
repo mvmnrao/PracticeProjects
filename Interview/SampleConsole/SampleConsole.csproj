@@ -4,13 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38B4F077-08B6-45F0-B5CD-4E48ACEA7739}</ProjectGuid>
+    <ProjectGuid>{443E4635-20C6-4419-8FA1-107D422F140B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ParallelProgramming</RootNamespace>
-    <AssemblyName>ParallelProgramming</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>SampleConsole</RootNamespace>
+    <AssemblyName>SampleConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,13 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncAwaitSample.cs" />
-    <Compile Include="DataParallelism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CollectionsAndDataStructures\CollectionsAndDataStructures.csproj">
+      <Project>{04324277-d32d-4229-97c7-627742d500b2}</Project>
+      <Name>CollectionsAndDataStructures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenericsExample\GenericsExample.csproj">
+      <Project>{09fb1f90-0183-40a1-b46e-f671d711f2d6}</Project>
+      <Name>GenericsExample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParallelProgramming\ParallelProgramming.csproj">
+      <Project>{38b4f077-08b6-45f0-b5cd-4e48acea7739}</Project>
+      <Name>ParallelProgramming</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Questions\Questions.csproj">
+      <Project>{7d438002-09a8-4f03-9ae5-b398b4f71f4e}</Project>
+      <Name>Questions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

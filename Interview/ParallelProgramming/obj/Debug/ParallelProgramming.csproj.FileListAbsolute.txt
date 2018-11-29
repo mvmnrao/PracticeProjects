@@ -1,7 +1,0 @@
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\bin\Debug\ParallelProgramming.exe.config
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\bin\Debug\ParallelProgramming.exe
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\bin\Debug\ParallelProgramming.pdb
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\obj\Debug\ParallelProgramming.csprojResolveAssemblyReference.cache
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\obj\Debug\ParallelProgramming.csproj.CoreCompileInputs.cache
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\obj\Debug\ParallelProgramming.exe
-D:\Manik\PracticeProjects\Interview\ParallelProgramming\obj\Debug\ParallelProgramming.pdb
